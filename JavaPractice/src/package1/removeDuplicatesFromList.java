@@ -7,6 +7,8 @@ import java.util.Iterator;
 public class removeDuplicatesFromList {
 	
 	public static void main(String[] args) {
+		
+		//Remove duplicate integers from a list
 		ArrayList<Integer> list =new ArrayList<>();
 		
 		list.add(1);
