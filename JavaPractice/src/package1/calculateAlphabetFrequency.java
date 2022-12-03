@@ -5,9 +5,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class practice {
+public class calculateAlphabetFrequency {
 
 	public static void main(String[] args) {
+		
+		//Calculate frequency of alphabets
 		String str = "This is an English sentence. English is a language";
 		String str2 = str.toLowerCase();
 		List<Character> list = new ArrayList<>();
