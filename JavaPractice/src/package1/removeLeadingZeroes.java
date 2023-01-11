@@ -5,7 +5,7 @@ public class removeLeadingZeroes {
 	public static void main(String[] args) {
 		removeLeadingZeroes obj = new removeLeadingZeroes();
 		obj.replaceZero("00001234");
-		obj.replaceZero2("0001882");
+		obj.replaceZero2("00010882");
 	}
 	
 	public void replaceZero(String str) {

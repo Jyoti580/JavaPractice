@@ -8,7 +8,6 @@ public class factorial {
 	}
 	
 	public int factorial(int num) {
-		int factorial =1;
 		if(num==0) {
 			return 1;
 		}
