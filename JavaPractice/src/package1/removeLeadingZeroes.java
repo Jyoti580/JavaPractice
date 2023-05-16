@@ -4,7 +4,7 @@ public class removeLeadingZeroes {
 	
 	public static void main(String[] args) {
 		removeLeadingZeroes obj = new removeLeadingZeroes();
-		obj.replaceZero("00001234");
+		obj.replaceZero("000010234");
 		obj.replaceZero2("00010882");
 	}
 	
@@ -13,6 +13,9 @@ public class removeLeadingZeroes {
 		for(int i =0;i<str.length();i++) {
 			if(str.charAt(i)=='0') {
 				newStr = str.replace(String.valueOf(str.charAt(i)), "");
+			}else {
+				System.out.println(str.charAt(i));
+				break;
 			}
 		}
 		System.out.println(newStr);
