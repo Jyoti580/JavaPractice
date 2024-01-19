@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class practice {
+public class AddItemsToList {
 	public static LinkedList<Integer> list = new LinkedList<>(Arrays.asList(0, 0, 0, 0));
 
 	public static void main(String[] args) {

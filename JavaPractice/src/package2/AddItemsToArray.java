@@ -2,7 +2,7 @@ package package2;
 
 import java.util.Scanner;
 
-public class practice2 {
+public class AddItemsToArray {
 	public static int arr[] = {0,0,0,0};
 	
 	public static void main(String[] args) {	
